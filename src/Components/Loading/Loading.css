@@ -1,0 +1,22 @@
+.head-loading {
+    position: relative;
+    height: 100vh;
+    background-color: #000000a6;
+    opacity: 0.3;
+}
+
+.loader {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

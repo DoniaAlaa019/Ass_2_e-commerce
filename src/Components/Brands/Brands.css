@@ -1,0 +1,10 @@
+.tran-card {
+    transform: scale(90%);
+    box-shadow: 0px 0px 0px 0px #4fa74f;
+    transition: all 0.3s;
+}
+
+.tran-card:hover {
+    box-shadow: 0px 0px 10px 1px #4fa74f;
+    transition: all 0.2s;
+}
